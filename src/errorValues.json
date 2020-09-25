@@ -1,0 +1,74 @@
+{
+  "-32700": {
+    "standard": "JSON RPC 2.0",
+    "message": "Invalid JSON was received by the server. An error occurred on the server while parsing the JSON text."
+  },
+  "-32600": {
+    "standard": "JSON RPC 2.0",
+    "message": "The JSON sent is not a valid Request object."
+  },
+  "-32601": {
+    "standard": "JSON RPC 2.0",
+    "message": "The method does not exist / is not available."
+  },
+  "-32602": {
+    "standard": "JSON RPC 2.0",
+    "message": "Invalid method parameter(s)."
+  },
+  "-32603": {
+    "standard": "JSON RPC 2.0",
+    "message": "Internal JSON-RPC error."
+  },
+  "-32000": {
+    "standard": "Fluree remote procedure call",
+    "message": "Invalid input."
+  },
+  "-32001": {
+    "standard": "Fluree remote procedure call",
+    "message": "Resource not found."
+  },
+  "-32002": {
+    "standard": "Fluree remote procedure call",
+    "message": "Resource unavailable."
+  },
+  "-32003": {
+    "standard": "Fluree remote procedure call",
+    "message": "Transaction rejected."
+  },
+  "-32004": {
+    "standard": "Fluree remote procedure call",
+    "message": "Query rejected."
+  },
+  "-32005": {
+    "standard": "Fluree remote procedure call",
+    "message": "Request rejected."
+  },
+  "-32006": {
+    "standard": "Fluree remote procedure call",
+    "message": "Method not supported."
+  },
+  "-32007": {
+    "standard": "Fluree remote procedure call",
+    "message": "Request limit exceeded."
+  },
+  "4001": {
+    "standard": "A JavaScript Fluree Provider API",
+    "message": "User rejected the request."
+  },
+  "4100": {
+    "standard": "A JavaScript Fluree Provider API",
+    "message": "The requested account and/or method has not been authorized by the user."
+  },
+  "4200": {
+    "standard": "A JavaScript Fluree Provider API",
+    "message": "The requested method is not supported by this Fluree provider."
+  },
+  "4900": {
+    "standard": "A JavaScript Fluree Provider API",
+    "message": "The provider is disconnected from all databases."
+  },
+  "4901": {
+    "standard": "A JavaScript Fluree Provider API",
+    "message": "The provider is disconnected from the specified database."
+  }
+}
