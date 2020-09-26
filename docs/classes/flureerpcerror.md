@@ -40,7 +40,7 @@
 
 ⊕ **new FlureeRpcError**(code: _`number`_, message: _`string`_, data: _`any`_): [FlureeRpcError](flureerpcerror.md)
 
-_Defined in classes.ts:10_
+_Defined in [classes.ts:10](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/classes.ts#L10)_
 
 **Parameters:**
 
@@ -62,7 +62,7 @@ _Defined in classes.ts:10_
 
 **● code**: _`Number`_
 
-_Defined in classes.ts:9_
+_Defined in [classes.ts:9](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/classes.ts#L9)_
 
 ---
 
@@ -72,7 +72,7 @@ _Defined in classes.ts:9_
 
 **● data**: _`any`_
 
-_Defined in classes.ts:10_
+_Defined in [classes.ts:10](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/classes.ts#L10)_
 
 ---
 
@@ -132,7 +132,7 @@ _Defined in /Users/te02416/code/javascript/metafluree/fluree-rpc-errors/node_mod
 
 ▸ **serialize**(): `any`
 
-_Defined in classes.ts:39_
+_Defined in [classes.ts:39](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/classes.ts#L39)_
 
 **Returns:** `any`
 The serialized error.
@@ -145,7 +145,7 @@ The serialized error.
 
 ▸ **toString**(): `any`
 
-_Defined in classes.ts:59_
+_Defined in [classes.ts:59](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/classes.ts#L59)_
 
 **Returns:** `any`
 The serialized error as a string.

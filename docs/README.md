@@ -34,7 +34,7 @@
 
 **● ERROR_CODES**: _`any`_ = require('./errorCodes.json')
 
-_Defined in errors.ts:3_
+_Defined in [errors.ts:3](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L3)_
 
 ---
 
@@ -44,7 +44,7 @@ _Defined in errors.ts:3_
 
 **● JSON_RPC_SERVER_ERROR_MESSAGE**: _"Unspecified server error."_ = "Unspecified server error."
 
-_Defined in utils.ts:5_
+_Defined in [utils.ts:5](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/utils.ts#L5)_
 
 ---
 
@@ -56,7 +56,7 @@ _Defined in utils.ts:5_
 
 ▸ **getMessageFromCode**(code: _`number`_, fallbackMessage?: _`string`_): `any`
 
-_Defined in utils.ts:22_
+_Defined in [utils.ts:22](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/utils.ts#L22)_
 
 **Parameters:**
 
@@ -76,7 +76,7 @@ The corresponding message or the fallback message
 
 ▸ **isValidCode**(code: _`number`_): `boolean`
 
-_Defined in utils.ts:43_
+_Defined in [utils.ts:43](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/utils.ts#L43)_
 
 **Parameters:**
 
@@ -95,7 +95,7 @@ true if the code is valid, false otherwise.
 
 ▸ **serializeError**(error: _`any`_, \_\_namedParameters?: _`object`_): `any`
 
-_Defined in utils.ts:74_
+_Defined in [utils.ts:74](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/utils.ts#L74)_
 
 **Parameters:**
 
@@ -117,7 +117,7 @@ A standardized, plain error object.
 
 **flureeErrors**: _`object`_
 
-_Defined in errors.ts:276_
+_Defined in [errors.ts:276](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L276)_
 
 <a id="flureeerrors.provider"></a>
 
@@ -125,7 +125,7 @@ _Defined in errors.ts:276_
 
 **● provider**: _`any`_ = provider
 
-_Defined in errors.ts:278_
+_Defined in [errors.ts:278](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L278)_
 
 ---
 
@@ -135,7 +135,7 @@ _Defined in errors.ts:278_
 
 **● rpc**: _`any`_ = rpc
 
-_Defined in errors.ts:277_
+_Defined in [errors.ts:277](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L277)_
 
 ---
 
@@ -147,7 +147,7 @@ _Defined in errors.ts:277_
 
 **provider**: _`object`_
 
-_Defined in errors.ts:170_
+_Defined in [errors.ts:170](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L170)_
 
 <a id="provider.custom"></a>
 
@@ -155,7 +155,7 @@ _Defined in errors.ts:170_
 
 ▸ **custom**(opts: _`any`_): [FlureeProviderError](classes/flureeprovidererror.md)
 
-_Defined in errors.ts:240_
+_Defined in [errors.ts:240](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L240)_
 
 **Parameters:**
 
@@ -174,7 +174,7 @@ The error
 
 ▸ **databaseDisconnected**(opts: _`Object` \| `string`_): [FlureeProviderError](classes/flureeprovidererror.md)
 
-_Defined in errors.ts:227_
+_Defined in [errors.ts:227](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L227)_
 
 **Parameters:**
 
@@ -193,7 +193,7 @@ The error
 
 ▸ **disconnected**(opts: _`Object` \| `string`_): [FlureeProviderError](classes/flureeprovidererror.md)
 
-_Defined in errors.ts:215_
+_Defined in [errors.ts:215](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L215)_
 
 **Parameters:**
 
@@ -212,7 +212,7 @@ The error
 
 ▸ **unauthorized**(opts: _`Object` \| `string`_): [FlureeProviderError](classes/flureeprovidererror.md)
 
-_Defined in errors.ts:191_
+_Defined in [errors.ts:191](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L191)_
 
 **Parameters:**
 
@@ -231,7 +231,7 @@ The error
 
 ▸ **unsupportedMethod**(opts: _`Object` \| `string`_): [FlureeProviderError](classes/flureeprovidererror.md)
 
-_Defined in errors.ts:203_
+_Defined in [errors.ts:203](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L203)_
 
 **Parameters:**
 
@@ -250,7 +250,7 @@ The error
 
 ▸ **userRejectedRequest**(opts: _`Object` \| `string`_): [FlureeProviderError](classes/flureeprovidererror.md)
 
-_Defined in errors.ts:179_
+_Defined in [errors.ts:179](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L179)_
 
 **Parameters:**
 
@@ -271,7 +271,7 @@ The error
 
 **rpc**: _`object`_
 
-_Defined in errors.ts:5_
+_Defined in [errors.ts:5](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L5)_
 
 <a id="rpc.internal"></a>
 
@@ -279,7 +279,7 @@ _Defined in errors.ts:5_
 
 ▸ **internal**(opts: _`Object` \| `string`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:57_
+_Defined in [errors.ts:57](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L57)_
 
 **Parameters:**
 
@@ -298,7 +298,7 @@ The error
 
 ▸ **invalidInput**(opts: _`Object` \| `string`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:89_
+_Defined in [errors.ts:89](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L89)_
 
 **Parameters:**
 
@@ -317,7 +317,7 @@ The error
 
 ▸ **invalidParams**(opts: _`Object` \| `string`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:35_
+_Defined in [errors.ts:35](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L35)_
 
 **Parameters:**
 
@@ -336,7 +336,7 @@ The error
 
 ▸ **invalidRequest**(opts: _`Object` \| `string`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:24_
+_Defined in [errors.ts:24](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L24)_
 
 **Parameters:**
 
@@ -355,7 +355,7 @@ The error
 
 ▸ **limitExceeded**(opts: _`Object` \| `string`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:166_
+_Defined in [errors.ts:166](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L166)_
 
 **Parameters:**
 
@@ -374,7 +374,7 @@ The error
 
 ▸ **methodNotFound**(opts: _`Object` \| `string`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:46_
+_Defined in [errors.ts:46](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L46)_
 
 **Parameters:**
 
@@ -393,7 +393,7 @@ The error
 
 ▸ **methodNotSupported**(opts: _`Object` \| `string`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:155_
+_Defined in [errors.ts:155](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L155)_
 
 **Parameters:**
 
@@ -412,7 +412,7 @@ The error
 
 ▸ **parse**(opts: _`Object` \| `string`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:14_
+_Defined in [errors.ts:14](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L14)_
 
 **Parameters:**
 
@@ -431,7 +431,7 @@ The error
 
 ▸ **queryRejected**(opts: _`Object` \| `string`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:133_
+_Defined in [errors.ts:133](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L133)_
 
 **Parameters:**
 
@@ -450,7 +450,7 @@ The error
 
 ▸ **requestRejected**(opts: _`Object` \| `string`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:144_
+_Defined in [errors.ts:144](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L144)_
 
 **Parameters:**
 
@@ -469,7 +469,7 @@ The error
 
 ▸ **resourceNotFound**(opts: _`Object` \| `string`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:100_
+_Defined in [errors.ts:100](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L100)_
 
 **Parameters:**
 
@@ -488,7 +488,7 @@ The error
 
 ▸ **resourceUnavailable**(opts: _`Object` \| `string`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:111_
+_Defined in [errors.ts:111](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L111)_
 
 **Parameters:**
 
@@ -507,7 +507,7 @@ The error
 
 ▸ **server**(opts: _`any`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:70_
+_Defined in [errors.ts:70](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L70)_
 
 **Parameters:**
 
@@ -526,7 +526,7 @@ The error
 
 ▸ **transactionRejected**(opts: _`Object` \| `string`_): [FlureeRpcError](classes/flureerpcerror.md)
 
-_Defined in errors.ts:122_
+_Defined in [errors.ts:122](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/errors.ts#L122)_
 
 **Parameters:**
 

@@ -39,7 +39,7 @@
 
 _Overrides [FlureeRpcError](flureerpcerror.md).[constructor](flureerpcerror.md#constructor)_
 
-_Defined in classes.ts:69_
+_Defined in [classes.ts:69](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/classes.ts#L69)_
 
 **Parameters:**
 
@@ -63,7 +63,7 @@ _Defined in classes.ts:69_
 
 _Inherited from [FlureeRpcError](flureerpcerror.md).[code](flureerpcerror.md#code)_
 
-_Defined in classes.ts:9_
+_Defined in [classes.ts:9](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/classes.ts#L9)_
 
 ---
 
@@ -75,7 +75,7 @@ _Defined in classes.ts:9_
 
 _Inherited from [FlureeRpcError](flureerpcerror.md).[data](flureerpcerror.md#data)_
 
-_Defined in classes.ts:10_
+_Defined in [classes.ts:10](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/classes.ts#L10)_
 
 ---
 
@@ -127,7 +127,7 @@ _Defined in /Users/te02416/code/javascript/metafluree/fluree-rpc-errors/node_mod
 
 _Inherited from [FlureeRpcError](flureerpcerror.md).[serialize](flureerpcerror.md#serialize)_
 
-_Defined in classes.ts:39_
+_Defined in [classes.ts:39](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/classes.ts#L39)_
 
 **Returns:** `any`
 The serialized error.
@@ -142,7 +142,7 @@ The serialized error.
 
 _Inherited from [FlureeRpcError](flureerpcerror.md).[toString](flureerpcerror.md#tostring)_
 
-_Defined in classes.ts:59_
+_Defined in [classes.ts:59](https://github.com/StylusFrost/fluree-rpc-errors/blob/9a9ba6a/src/classes.ts#L59)_
 
 **Returns:** `any`
 The serialized error as a string.
