@@ -1,6 +1,6 @@
-const errorValues = require('./errorValues.json')
+const errorValues = require('./errorValues')
 const FALLBACK_ERROR_CODE = require('./errorCodes.json').rpc.internal
-const { FlureeRpcError } = require('./classes')
+import { FlureeRpcError } from './classes'
 
 export const JSON_RPC_SERVER_ERROR_MESSAGE = 'Unspecified server error.'
 
